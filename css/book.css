@@ -29,3 +29,48 @@ html{
     font-family: "KaiTI-GBK";
     src: url(../fonts/FangZhengKaiTi-GBK-1.ttf);
 }
+
+img.cover{
+    margin: 10px;
+    width: 20vw;
+    flex-grow: 1;
+}
+
+div.summary{
+    width: 100%;
+    clear: both;
+    background-color: #faeed7;
+    margin-bottom: 10px;
+}
+
+h2{
+    width: 100%;
+    clear: both;
+    margin-top: 12px;
+    font-size: 3vw;
+    text-indent: 1em;
+}
+
+.summary p{
+    font-size: 2vw;
+    line-height: 2em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    left: 30vw;
+}
+
+div.book{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    /* margin: 10px; */
+    padding: 0;
+}
