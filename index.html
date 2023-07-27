@@ -46,13 +46,23 @@ div.book{
 
 </style>
 
+<script src="js/jquery-3.7.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.summary').click(function(){
+
+        var href = $(this).prev().children().attr('href');
+        location.href = href;
+    });
+});
+    </script>
 
 </head>
 <body>
     <div class="content">
         <div class="book">
 <h2>
-<a id="book1" href="">幡然醒悟</a>
+<a id="book1" href="book1.html">幡然醒悟</a>
 </h2>
 <div class="summary" >
     <img class="cover" src="images/cover/book1.jpg" alt="幡然醒悟" style="float:left"/>
@@ -65,7 +75,7 @@ div.book{
 </div>
 
 <div class="book">
-<h2><a id="book2" href="">凤姿花离</a></h2>
+<h2><a id="book2" href="book2.html">凤姿花离</a></h2>
 
 <div class="summary" >
     <img class="cover" src="images/cover/book2.jpg" alt="凤姿花离" style="float:left"/>
