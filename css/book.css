@@ -19,3 +19,13 @@ html{
     margin: 0;
     font-family: "KaiTi","Microsoft Yahei";
 }
+
+@font-face {
+    font-family: "KaiTi";
+    src: url(../fonts/FangZhengKaiTiJianTi-1.ttf);
+}
+
+@font-face {
+    font-family: "KaiTI-GBK";
+    src: url(../fonts/FangZhengKaiTi-GBK-1.ttf);
+}
