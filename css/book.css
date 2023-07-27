@@ -1,0 +1,21 @@
+p{
+    letter-spacing: 1px;
+    text-indent: 2em;
+    padding: .5em .3em;
+    font-size: 3vw;
+    line-height: 6vw;
+    
+}
+.reader{
+    background: #faeed7;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.05);
+}
+h1{
+    text-align: center;
+    font-size: 4vw;
+}
+html{
+    background: #d9cdb6;
+    margin: 0;
+    font-family: "KaiTi","Microsoft Yahei";
+}
