@@ -1,6 +1,8 @@
 
 <!doctype html>
 <head>
+    <meta name="viewport" content="width=device-width">
+    <meta name="renderer" content="webkit">
 <style>
 img.cover{
 
@@ -28,29 +30,46 @@ h2{
     text-align: left;
     padding-left: 10px;
 }
+.content{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(245,245,245);
+    left: 30vw;
+}
+
+div.book{
+    height: fit-content;
+    width: 100%;
+    /* margin: 10px; */
+    padding: 0;
+}
 
 </style>
 
 
 </head>
 <body>
-
-## <a id="book1" href="">幡然醒悟</a>
-<div class="summary" onclick="alert('1')">
-    <img class="cover" src="http://gmij.win/book/images/cover/book1.jpg" alt="幡然醒悟" style="float:left"/>
+    <div class="content">
+        <div class="book">
+<h2>
+<a id="book1" href="">幡然醒悟</a>
+</h2>
+<div class="summary" >
+    <img class="cover" src="images/cover/book1.jpg" alt="幡然醒悟" style="float:left"/>
     <p>
 在老公的情人生日那天，他当众掐着我的脖子，把我狠狠地抵在冰冷的栏杆上，猛地推下了海。
 
 再次被人拉上来时，我浑身都是血，几乎是奄奄一息。迟延冷冷地看着我，眼中没有一丝怜悯，“别让她死在这里，省得弄脏了我的游艇，拉下去吧！”这话刺在我心里，终于对他心灰意冷了......
 </p>
 </div>
+</div>
 
+<div class="book">
+<h2><a id="book2" href="">凤姿花离</a></h2>
 
-
-## <a id="book2" href="">凤姿花离</a>
-
-<div class="summary" onclick="alert('2')">
-    <img class="cover" src="http://gmij.win/book/images/cover/book2.jpg" alt="凤姿花离" style="float:left"/>
+<div class="summary" >
+    <img class="cover" src="images/cover/book2.jpg" alt="凤姿花离" style="float:left"/>
     <p >
 “我们凤凰一族，夫君是要靠自己孵出来的。”
 
@@ -64,5 +83,6 @@ h2{
 我扔他第999次的时候，他再也没回来。再次见面时，他已经是令人闻风丧胆的魔尊。
 </p>
 </div>
-
+</div>
+</div>
 </body>
