@@ -1,9 +1,8 @@
 p{
     letter-spacing: 1px;
     text-indent: 2em;
-    padding: .5em .3em;
-    font-size: 3vw;
-    line-height: 6vw;
+    font-size: 4vw;
+    line-height: 5vw;
     
 }
 .reader{
@@ -12,7 +11,7 @@ p{
 }
 h1{
     text-align: center;
-    font-size: 4vw;
+    font-size: 5vw;
 }
 html{
     background: #d9cdb6;
